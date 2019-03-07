@@ -140,6 +140,17 @@ h5 {
   opacity: 1;
 }
 
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 .section-footer {
   background-color: purple;
 }
